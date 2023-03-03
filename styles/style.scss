@@ -61,3 +61,48 @@
     cursor: pointer;
   }
 }
+.main {
+  background: #000915;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.games {
+  color: $color-text;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+
+
+  &_game1 {
+    background: url(../img/game1.jpg);
+   
+  }
+  &_game2 {
+    background: url(../img/game2.jpg);
+  }
+  &_game3 {
+    background: url(../img/game3.jpg);
+
+  }
+  &_game {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 128px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 5px #ccc;
+    }
+  }
+}
