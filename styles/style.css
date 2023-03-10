@@ -9,6 +9,7 @@
 }
 
 .header {
+  background: #000915;
   background: url(/img/top.jpg);
   background-repeat: no-repeat;
   background-size: cover;
