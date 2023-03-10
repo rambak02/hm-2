@@ -104,4 +104,46 @@
 .games_game:hover {
   transform: scale(1.05);
   box-shadow: 0 0 5px #ccc;
+}
+
+@media (max-width: 765px) {
+  .center {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .games {
+    display: flex;
+    flex-direction: column;
+  }
+  .games_game {
+    margin-bottom: 0;
+  }
+  .header {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+  }
+  .header_top {
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+  }
+  .header_desc {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 343px;
+    max-height: 66px;
+    text-align: center;
+  }
+  .main {
+    box-sizing: border-box;
+  }
 }/*# sourceMappingURL=style.css.map */
