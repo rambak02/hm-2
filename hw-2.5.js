@@ -57,13 +57,6 @@ function userNum(usrNum) {
 }
 
 //Задание 7
-//Создайте объекты circle1 и circle2 со свойством
-//radius
-//. У объектов должен быть методам
-//getArea
-// , которое возвращает площадь круга через радиус, а также
-//getPerimeter
-// , который возвращает периметр окружности.
 
 function getArea() {
   let result = Math.PI * (this.radius * this.radius);
