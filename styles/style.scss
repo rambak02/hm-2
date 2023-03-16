@@ -3,12 +3,18 @@
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+  &:visited {
+    color: $color-text;
+  }
+}
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
 .header {
-  background: #000915;
+  background: $color-background;
   background: url(/img/top.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +51,7 @@
     }
   }
   &_button {
-    background: #9c0332;
+    background: $color-button;
     border-radius: 30px;
     color: $color-text;
     font-family: "Montserrat";
@@ -62,8 +68,8 @@
     cursor: pointer;
   }
 }
-.main {
-  background: #000915;
+.nav {
+  background: $color-background;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,6 +108,49 @@
       transform: scale(1.05);
       box-shadow: 0 0 5px #ccc;
     }
+  }
+}
+.main {
+  background: $color-background;
+  height: 800px;
+}
+.seasons {
+  padding-top: 410px;
+  display: flex;
+  color: #ffffff;
+  &_game {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    margin-right: 132px;
+  }
+  &_header {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+  }
+  &_desc {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  &_button {
+    background: $color-button;
+    border-radius: 30px;
+    color: $color-text;
+    width: 234px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  &_img {
+    margin-bottom: 30px
   }
 }
 

@@ -35,7 +35,40 @@
       text-align: center;
     }
   }
-  .main {
+  .nav {
     box-sizing: border-box;
+   
+  }
+  .main {
+    padding-top: 178px;
+  }
+  .seasons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    &_game {
+      gap: 32px;
+      margin-right: 0;
+      margin-bottom: 64px;
+      align-items: center;
+    }
+    &_header {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+    }
+    &_desc {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &_img {
+      max-width: 344px;
+      max-height: 236px;
+    }
   }
 }
