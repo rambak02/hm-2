@@ -67,6 +67,7 @@ const newArr9 = arr9.flat();
 console.log(newArr9);
 
 
+
 //Задание 10
 const arrs10 = [1, 2, 3, 4, 6, 9, 7];
 let newArr10 = [];
