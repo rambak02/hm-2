@@ -1,13 +1,12 @@
 //Задание 1
 const arr = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
   if (arr[i] == 10) {
-    console.log(arr[i]);
     break;
-  } else {
-    console.log(arr[i]);
+  } 
   }
-}
+
 
 //Задание 2
 const arr2 = [1, 5, 4, 10, 0, 3];
@@ -26,16 +25,15 @@ for (let i = 0; i < 3; i++) {
   for (let i = 0; i < 3; i++) {
     arrs[i] = 1;
   }
-  arr4.unshift(arrs);
+  arr4.push(arrs);
 }
 console.log(arr4);
 
 //Задание 5
 const arr5 = [1, 1, 1];
 
-for (let i = 0; i < 3; i++) {
-  arr5.push(2);
-}
+  arr5.push(2,2,2);
+
 console.log(arr5);
 //Задание 6
 const arr6 = [9, 8, 7, "a", 6, 5];
@@ -46,11 +44,11 @@ console.log(arr6);
 //Задание 7
 const arr7 = [9, 8, 7, 6, 5];
 const b = prompt("Введите число");
-for (let i = 0; i < arr7.length; i++) {
-  if (arr7[i] == b) {
+
+  if (arr7.includes(b)) {
     console.log("Такое число есть в массиве");
   }
-}
+
 
 //Задание 8
 let a = "abcdef";
@@ -65,7 +63,7 @@ const arr9 = [
   [1, 2, 3],
   [4, 5, 6],
 ];
-const newArr9 = arr9[0].concat(arr9[1]);
+const newArr9 = arr9.flat();
 console.log(newArr9);
 
 //Задание 10
