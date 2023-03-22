@@ -112,9 +112,10 @@ a {
 }
 .main {
   background: $color-background;
-  height: 800px;
+  height: 1600px;
 }
-.seasons {
+.seasons,
+.remember {
   padding-top: 410px;
   display: flex;
   color: #ffffff;
@@ -151,6 +152,16 @@ a {
   }
   &_img {
     margin-bottom: 30px;
+  }
+}
+.remember {
+  padding-top: 238px;
+  padding-bottom: 240px;
+  display: flex;
+  flex-direction: row-reverse;
+  &_game {
+    margin-right: 0px;
+    margin-left: 132px;
   }
 }
 
