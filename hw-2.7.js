@@ -2,6 +2,7 @@
 let js = "js";
 js = js.toUpperCase();
 
+
 console.log(js);
 
 //Задание 2
