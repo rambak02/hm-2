@@ -112,7 +112,7 @@ a {
 }
 .main {
   background: $color-background;
-  height: 1600px;
+  max-height: 1600px;
 }
 .seasons,
 .remember {

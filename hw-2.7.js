@@ -14,6 +14,7 @@ function searchStart(array, string) {
     }
   });
   console.log(newArray);
+  return newArray;
 }
 //Задание 3
 console.log(Math.floor(32.58884));
