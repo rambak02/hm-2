@@ -7,13 +7,9 @@ console.log(js);
 
 //Задание 2
 function searchStart(array, string) {
-  newArray = [];
-  array.forEach((el) => {
-    if (el.toLowerCase().includes(string.toLowerCase())) {
-      newArray.push(el);
-    }
-  });
+  let newArray = array.filter(el => el.toLowerCase().includes(string));
   console.log(newArray);
+  return newArray;
 }
 //Задание 3
 console.log(Math.floor(32.58884));

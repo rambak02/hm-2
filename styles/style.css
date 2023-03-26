@@ -116,35 +116,40 @@ a:visited {
 
 .main {
   background: #000915;
-  height: 800px;
+  max-height: 1600px;
 }
 
-.seasons {
+.seasons,
+.remember {
   padding-top: 410px;
   display: flex;
   color: #ffffff;
 }
-.seasons_game {
+.seasons_game,
+.remember_game {
   display: flex;
   gap: 32px;
   flex-direction: column;
   margin-right: 132px;
 }
-.seasons_header {
+.seasons_header,
+.remember_header {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
 }
-.seasons_desc {
+.seasons_desc,
+.remember_desc {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
 }
-.seasons_button {
+.seasons_button,
+.remember_button {
   background: #9c0332;
   border-radius: 30px;
   color: #fff;
@@ -155,8 +160,20 @@ a:visited {
   justify-content: center;
   cursor: pointer;
 }
-.seasons_img {
+.seasons_img,
+.remember_img {
   margin-bottom: 30px;
+}
+
+.remember {
+  padding-top: 238px;
+  padding-bottom: 240px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.remember_game {
+  margin-right: 0px;
+  margin-left: 132px;
 }
 
 @media (max-width: 765px) {
@@ -202,33 +219,43 @@ a:visited {
   .main {
     padding-top: 178px;
   }
-  .seasons {
+  .seasons, .remember {
     display: flex;
     flex-direction: column;
     padding-top: 0px;
   }
-  .seasons_game {
+  .seasons_game, .remember_game {
     gap: 32px;
     margin-right: 0;
     margin-bottom: 64px;
     align-items: center;
   }
-  .seasons_header {
+  .seasons_header, .remember_header {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
   }
-  .seasons_desc {
+  .seasons_desc, .remember_desc {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
   }
-  .seasons_img {
+  .seasons_img, .remember_img {
     max-width: 344px;
     max-height: 236px;
+  }
+  .remember {
+    padding-top: 130px;
+    padding-bottom: 0px;
+  }
+  .remember_game {
+    margin-left: 0px;
+  }
+  .remember_img {
+    margin-bottom: 60px;
   }
 }/*# sourceMappingURL=style.css.map */

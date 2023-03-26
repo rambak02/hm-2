@@ -42,7 +42,7 @@
   .main {
     padding-top: 178px;
   }
-  .seasons {
+  .seasons, .remember {
     display: flex;
     flex-direction: column;
     padding-top: 0px;
@@ -71,4 +71,15 @@
       max-height: 236px;
     }
   }
+  .remember {
+    padding-top: 130px;
+    padding-bottom: 0px;
+    &_game {
+      margin-left:0px ;
+    }
+    &_img {
+      margin-bottom: 60px;
+    }
+  }
 }
+
